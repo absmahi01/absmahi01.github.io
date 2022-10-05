@@ -168,6 +168,24 @@ header .navbar ul li a:hover{
     display: none;
 }
 
+#img-fluid{
+ 
+    width:100%;
+    height:auto;
+    
+}
+@media screen and (max-width: 500px){
+   .responsive{
+    padding: 0px 20px;
+    }
+}
+
+.responsive img{
+  width:100%;
+    height:auto;
+    
+}
+
 /* media queries */
 
 @media (max-width:1200px){
