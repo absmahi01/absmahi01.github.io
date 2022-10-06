@@ -645,6 +645,8 @@ form input, form textarea{
     font-size: 18px;
     border-radius: 6px;
     text-transform: none;
+    margin-left: 10px;
+    
 }
 
 form .btn2{
