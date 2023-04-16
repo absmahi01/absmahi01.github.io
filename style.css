@@ -32,7 +32,9 @@ html{
     overflow-x: hidden;
 }
 
-
+html::-webkit-scrollbar{
+    width: 1.4rem;
+}
 
 html::-webkit-scrollbar-track{
     background: #222;
@@ -166,6 +168,24 @@ header .navbar ul li a:hover{
     padding: 1rem 1.5rem;
     z-index: 1000;
     display: none;
+}
+
+#img-fluid{
+ 
+    width:100%;
+    height:auto;
+    
+}
+@media screen and (max-width: 500px){
+   .responsive{
+    padding: 0px 20px;
+    }
+}
+
+.responsive img{
+  width:100%;
+    height:auto;
+    
 }
 
 /* media queries */
@@ -624,6 +644,9 @@ form input, form textarea{
     color: #fff;
     font-size: 18px;
     border-radius: 6px;
+    text-transform: none;
+    margin-left: 10px;
+    
 }
 
 form .btn2{
